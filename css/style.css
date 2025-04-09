@@ -1,18 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face{
+
+@font-face {
     font-family: minhafonte;
     src: url(/fontes/great-vibes/GreatVibes-Regular.ttf);
-    
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+body{
+    color: #000;
+}
 }
 
-h1{
-    
+h1 {
+
     font-family: minhafonte;
     color: black;
     font-size: 50px;
     text-align: center;
 }
 
-
+h2 {
+    font-family: minhafonte , Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+.img {
+    width: 300%;
     
+       
+}
+li,ul,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960;
+    margin: auto;
+    font-family:cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+.borda{
+    
+    width: 50%;
+    margin: auto;
+}
+.img{
+    
+    width: 100%;
+    text-align: center;
+
+}
+
+.normal,popular{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100;           
+    background-color: #f3f9f8;
+    width: 960;
+    margin: auto;
+}
+header,footer.fundo{
+    background-color: #62aca2;
+}
+.container{
+    justify-content: center;  
+    height: 100;           
+    background-color: #62aca2;
+    width: 960;
+    margin: auto;
+}
+.principal{
+    align-items: center;      
+    width: 960;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+a:link{
+    color: #35d8d0;
+}
+a{
+    text-decoration: none; /*serve para decorar o texto*/
+}
